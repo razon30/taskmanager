@@ -13,9 +13,11 @@ const Register = () => {
       alert('Registration successful. Please log in.');
       navigate('/login');
     } catch (error) {
-      alert('Registration failed. Please try again.');
+      alert('Registration failed. Please try again. In no times');
     }
   };
+
+  // Hello worls.
 
   return (
     <div className="max-w-md mx-auto mt-20">
