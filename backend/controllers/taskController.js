@@ -35,6 +35,7 @@ res.status(500).json({ message: error.message });
 }
 };
 
+
 const deleteTask = async (req, res) => {
 try {
 const task = await Task.findById(req.params.id);
